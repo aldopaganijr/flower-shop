@@ -10,6 +10,8 @@
   margin: 0 7.5px 15px;
   overflow: hidden;
   margin-top: 5rem;
+  background-color: #7C7A7A;
+  
 
   &:hover {
     cursor: pointer;
@@ -41,7 +43,6 @@
     height: 100%;
     background-size: cover;
     background-position: center;
-    border-radius: 30px 30px 30px 30px;
   }
 
   .category-body-container {
@@ -51,14 +52,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 1px solid white;
-    margin-top: 2rem;
-  
 
     h2 {
       font-weight: bold;
       margin: 0 6px 0;
-      font-size: 22px;
+      font-size: 25px;
       color:white;
     }
   }

@@ -3,7 +3,9 @@ import "./Shop.scss"
 const Shop = () => {
     
   return (
-    <div>Helooooooo</div>
+    <div>
+      <h1>Shop</h1>
+    </div>
   )
 }
 
