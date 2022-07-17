@@ -1,14 +1,19 @@
 import "./App.scss"
-import Categories from "./components/categories/Categories"
-import ImageHeader from "./components/image-header/ImageHeader";
-import Header from "./components/header/Header";
+import Home from "./components/routes/home/Home";
+import Navigation from "./components/routes/navigation/Navigation";
+import Shop from "./components/routes/shop/Shop";
+import {Routes, Route} from "react-router-dom";
+
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <ImageHeader />
-      <Categories Categories={Categories} />
+      <Routes>
+        <Route path='/' element={<Navigation />}>
+          <Route index element={<Home />}/>
+          <Route path="/Shop" element={<Shop />}/>
+        </Route>
+      </Routes>
     </div>
   );
 }
