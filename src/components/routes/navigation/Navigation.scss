@@ -19,7 +19,7 @@
       color: white;
       padding-top: .8rem;
       padding-left: 1rem;
-      font-weight: 500;
+      font-weight: bold;
     }
   
     .links-container {
@@ -30,12 +30,14 @@
       justify-content: flex-end;
       box-sizing: border-box;
       padding: 25px;
+      white-space: nowrap;
   
       .link {
         padding: 30px 15px;
         cursor: pointer;
         color: white;
         padding: 10px;
+        font-weight: bold;
       }
     }
   }

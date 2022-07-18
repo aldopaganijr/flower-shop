@@ -1,6 +1,7 @@
 import "./signin.scss"
 
 import {signInWithGooglePopup, createUserDocumentFromAuth} from  "../../../utils/firebase/firebase";
+import SignUpForm from "../../sign-up-form/SignUpForm";
 
 
 const SignIn = () => {
@@ -17,6 +18,7 @@ const SignIn = () => {
     <div>
         <h1>Sign in</h1>
         <button onClick={logGoogleUser}>Log in with google</button>
+        <SignUpForm />
     </div>
   )
 }

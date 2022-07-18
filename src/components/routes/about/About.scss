@@ -1,0 +1,55 @@
+.imageHeader{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    z-index: -1;
+    background-size: cover;
+}
+
+.main-pic{
+    max-height: 100vh;
+    min-width: 100vw;
+}
+
+.about-container{
+    background-color:#FFFEF2 ;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+    .image-container{
+        display: flex;
+        flex-direction: row;
+        padding-top: 7rem;
+
+    #lady{
+        width: 40vw;
+        height: 60vh;
+        margin-left: 5rem;
+        margin-bottom: 7rem;
+    }
+    }
+
+.heading-two{
+    margin-left: 7rem;
+    font-size: 3rem;
+    white-space: nowrap;
+    margin-bottom: 2rem;
+}
+
+.bio-container{
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.bio{
+    padding-top: 2rem;
+}
+
+
+
+
+
