@@ -11,10 +11,15 @@
       padding: 25px;
       display: center;
       justify-content: center;
+      white-space: nowrap;
     }
 
-    .logo{
-      padding-bottom: .5rem;
+    #logo{
+      font-size: 2rem;
+      color: white;
+      padding-top: .8rem;
+      padding-left: 1rem;
+      font-weight: 500;
     }
   
     .links-container {
