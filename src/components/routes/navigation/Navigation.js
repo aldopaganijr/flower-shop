@@ -13,11 +13,11 @@ const Navigation = () => {
               The Grow Room 
             </Link>
             <div className="links-container">
-              <Link className="link" to="/Shop">
-                  Shop
-              </Link>
               <Link className="link" to="/About">
                   About
+              </Link>
+              <Link className="link" to="/Shop">
+                  Shop
               </Link>
               <Link className="link" to="/Contact">
                 Contact
