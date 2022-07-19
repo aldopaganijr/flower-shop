@@ -4,7 +4,7 @@ import Navigation from "./components/routes/navigation/Navigation";
 import Shop from "./components/routes/shop/Shop";
 import About from "./components/routes/about/About"
 import {Routes, Route} from "react-router-dom";
-import SignIn from "./components/routes/sign-in/signIn";
+import Authentication from "./components/routes/authentication/Authentication";
 import Contact from "./components/routes/contact/contact"
 
 
@@ -16,7 +16,7 @@ function App() {
           <Route index element={<Home />}/>
           <Route path="/Shop" element={<Shop />}/>
           <Route path="/About" element={<About />}/>
-          <Route path="/SignIn" element={<SignIn />}/>
+          <Route path="/Authentication" element={<Authentication />}/>
           <Route path="/Contact" element={<Contact />}/>
         </Route>
       </Routes>
