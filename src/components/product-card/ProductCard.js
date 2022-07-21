@@ -12,7 +12,7 @@ const ProductCard = ({product}) => {
       <div className='footer'>
         <span className='name'>{name}</span>
         <span className='price'>{price}</span>
-        <Button buttonType='inverted'>Add to Cart</Button>
+        <Button>Add to Cart</Button>
       </div>
     </div>
   )

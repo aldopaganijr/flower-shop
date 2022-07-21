@@ -14,18 +14,17 @@
     }
   
     button {
-      width: 80%;
+      width: 50%;
       opacity: 0.7;
       position: absolute;
       top: 255px;
       display: none;
+      padding: .75rem;
+      left: 105px;
     }
   
     &:hover {
-      img {
-        opacity: 0.8;
-      }
-  
+
       button {
         opacity: 0.85;
         display: flex;
