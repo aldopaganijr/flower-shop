@@ -10,7 +10,7 @@
 
 .main-pic{
     max-height: 100vh;
-    min-width: 100vw;
+    min-width: 93.5vw;
 }
 
 .about-container{
@@ -23,13 +23,13 @@
     .image-container{
         display: flex;
         flex-direction: row;
-        padding-top: 7rem;
+        padding-top: 5rem;
 
     #lady{
         width: 40vw;
         height: 60vh;
         margin-left: 5rem;
-        margin-bottom: 7rem;
+        margin-bottom: 5rem;
     }
     }
 
@@ -44,10 +44,12 @@
 .bio-container{
     margin-left: 5rem;
     margin-right: 5rem;
+    font-size: 1rem;
 }
 
 .bio{
-    padding-top: 2rem;
+    padding-top: 1.5rem;
+    font-size: 15px;
 }
 
 

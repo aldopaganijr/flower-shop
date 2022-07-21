@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "name": "Sunday Sunrise",
+      "imageUrl": "https://images.unsplash.com/photo-1558879860-45f24b366ea1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1181&q=80",
+      "price": 55
+    },
+    {
+      "id": 2,
+      "name": "The Simple One",
+      "imageUrl": "https://images.unsplash.com/photo-1606742602307-e9eaa3cf8107?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+      "price": 25
+    },
+    {
+      "id": 3,
+      "name": "Breakfast in Bed",
+      "imageUrl": "https://images.unsplash.com/photo-1588419651584-daa84922dd5e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+      "price": 20
+    },
+    {
+      "id": 4,
+      "name": "Screwdriver",
+      "imageUrl": "https://images.unsplash.com/photo-1612198054914-73767426e046?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1015&q=80",
+      "price": 30
+    },
+    {
+      "id": 5,
+      "name": "Vivid Dreams",
+      "imageUrl": "https://images.unsplash.com/photo-1562180457-6663a4fc4e74?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80",
+      "price": 70
+    },
+    {
+      "id": 6,
+      "name": "Bed & Breakfast",
+      "imageUrl": "https://images.unsplash.com/photo-1452827073306-6e6e661baf57?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80",
+      "price": 40
+    }
+  ]
+  
