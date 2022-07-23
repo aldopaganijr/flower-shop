@@ -3,11 +3,25 @@
     grid-template-columns: repeat(3, 1fr);
     column-gap: 20px;
     row-gap: 50px;
+
+    @media (max-width: 850px){
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1.5rem;
+        font-size: 23px;
+        flex-direction: column;
+  
+       }
 }
 
 .category-title{
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom: 25px;
     text-align: center;
     font-family: 'Cormorant SC', serif;
+
+    @media (max-width: 850px){
+       padding-top: 2rem;
+       }
 }
