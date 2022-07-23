@@ -7,9 +7,15 @@
   font-size: 20px;
   align-items: center;
 
+
   .image-container-checkout {
     width: 23%;
     padding-right: 15px;
+
+
+  @media (max-width: 500px){
+    padding-right: 0px;
+}
 
     img {
       width: 100%;
@@ -20,13 +26,22 @@
   .quantity-checkout,
   .price-checkout {
     width: 23%;
+
+
+  @media (max-width: 500px){
+    padding: 30px;
+}
   }
+
+
+
 
   .quantity-checkout {
     display: flex;
 
     .arrow {
       cursor: pointer;
+
     }
 
     .value {

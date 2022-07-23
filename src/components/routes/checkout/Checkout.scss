@@ -2,6 +2,14 @@
   background-image: url("https://images.unsplash.com/photo-1507646871303-331b8f659227?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1625&q=80");
   padding: 20px 40px;
 
+  @media (max-width: 500px){
+    padding: 10px;
+}
+
+@media (max-width: 900px){
+  padding: 5px;
+}
+
 
 }
 .checkout-container {
@@ -19,6 +27,21 @@
   border-radius: 16px;
   padding: 3rem;
 
+  @media (max-width: 500px){
+   width: 100%;
+   background: rgba(16, 16, 16, 0.26);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: white;
+
+  @media (max-width: 500px){
+    width: 100%;
+}
+}
+
 
   .checkout-header {
     width: 100%;
@@ -30,6 +53,10 @@
     .header-block {
       text-transform: capitalize;
       width: 23%;
+
+      @media (max-width: 500px){
+        display: none;
+    }
 
       &:last-child {
         width: 8%;
