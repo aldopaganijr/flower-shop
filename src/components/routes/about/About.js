@@ -22,7 +22,7 @@ const About = () => {
               
               Trained in Korea, our team of florists specialize in the fusion style of Korean floral arrangements, which merges high fashion with urban sensibilities, and with particular attention to how flowers are best mixed and matched with inorganic aspects of a floral arrangement, like the wrapping paper and other embellishments.
               
-              Apart from the curated designs available on the online store, The Grow Room can also create and offer delivery services for bespoke arrangements and bouquets orders, tailor-made for that once-in-a-lifetime occasion or for a very special someone. Speak to us to find out more.</p>
+              Apart from the curated designs available on the online store, The Grow Room can create and offer delivery services for bespoke arrangements and bouquets orders, tailor-made for that once-in-a-lifetime occasion or for a very special someone. Speak to us to find out more.</p>
             </div>
           </div>
         </div>
