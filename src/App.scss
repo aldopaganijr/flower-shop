@@ -9,6 +9,10 @@ body{
     background-color: #FFFEF2;
     color: black;
     padding: 20px 40px;
+
+    @media (max-width: 500px){
+       padding: 20px 0;
+       }
 }
 
 a {
