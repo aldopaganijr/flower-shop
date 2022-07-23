@@ -16,6 +16,10 @@
       justify-content: center;
       padding: 10px 20px;
       color: black;
+
+      @media (max-width: 500px){
+        color: white;
+       }
   
       .name {
         font-size: 16px;
