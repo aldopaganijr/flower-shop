@@ -25,31 +25,71 @@
         flex-direction: row;
         padding-top: 5rem;
 
+        @media (max-width: 1200px){
+            display: flex;
+            flex-direction: column;
+        }
+
+
     #lady{
         width: 40vw;
         height: 60vh;
         margin-left: 5rem;
         margin-bottom: 5rem;
+
+        @media (max-width: 1200px){
+            width: 90vw;
+            margin-left: 0;
+            align-self: center;
+        }
+
+        @media (max-width: 500px){
+            display: none;
+        }
     }
     }
 
-.heading-two{
+.heading-grow-room{
     margin-left: 6rem;
     font-size: 3rem;
     white-space: nowrap;
     margin-bottom: 2rem;
     font-family: 'Cormorant SC', serif;
+
+    @media (max-width: 1340px){
+        margin-left: 0;
+    }
+
+    @media (max-width: 1200px){
+        margin-left: 0;
+        align-self: center;
+    }
 }
 
 .bio-container{
     margin-left: 5rem;
     margin-right: 5rem;
     font-size: 1rem;
+
+    @media (max-width: 1200px){
+        margin-left: 4.5rem;
+        align-self: center;
+    }
+
+    @media (max-width: 500px){
+        margin-left: 4.5rem;
+        align-self: center;
+    }
 }
 
 .bio{
     padding-top: 1.5rem;
     font-size: 15px;
+
+    @media (max-width: 1200px){
+        margin-left: 0;
+        align-self: center;
+    }
 }
 
 
