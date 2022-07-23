@@ -8,10 +8,10 @@
   margin: 0 7.5px 15px;
   overflow: hidden;
   padding-top: 1.5rem;
+
  
 
   
-
   &:hover {
     cursor: pointer;
 
@@ -57,6 +57,24 @@
     backdrop-filter: blur(6.3px);
     -webkit-backdrop-filter: blur(3.3px);
     border: 1px solid rgba(255, 255, 255, 0.18);
+
+    @media (max-width: 900px){
+      max-width: 15%;
+    }
+    @media (max-width: 700px){
+      max-width: 20%;
+    }
+    @media (max-width: 700px){
+      max-width: 30%;
+      background: none;
+      box-shadow: none;
+      backdrop-filter: none;
+      border: none;
+
+      h2{
+        display: none;
+      }
+    }
 
     h2 {
       font-weight: bold;
