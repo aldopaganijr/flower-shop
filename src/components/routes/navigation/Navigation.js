@@ -11,6 +11,7 @@ import { CartContext } from "../../../contexts/cart";
 
 
 
+
 const Navigation = () => {
 
   const {currentUser} = useContext(UserContext)
@@ -21,7 +22,7 @@ const Navigation = () => {
   return (
     <Fragment>
         <div className="navigation">
-            <Link id="logo" className="logo-container" to="/">
+            <Link  id="logo" className="logo-container" to="/">
               The Grow Room 
             </Link>
             <div className="links-container">

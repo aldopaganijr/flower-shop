@@ -4,6 +4,8 @@ import { useContext, useState, useEffect} from "react"
 import { CategoriesContext } from "../../../contexts/categories"
 import ProductCard from "../../product-card/ProductCard"
 import { Fragment } from "react"
+import { motion } from "framer-motion"
+import {pageAnimation} from "../../../animation";
 
 const Category = () => {
     const { category } = useParams();
@@ -17,12 +19,12 @@ const Category = () => {
     return (
       <Fragment>
         <h2 className='category-title'>{category.toUpperCase()}</h2>
-        <div className='category-container'>
+        <motion.div exit="exit" variants={pageAnimation} initial="hidden" animate="show" className='category-container'>
           {products &&
             products.map((product) => (
               <ProductCard key={product.id} product={product} />
             ))}
-        </div>
+        </motion.div>
       </Fragment>
     );
   };

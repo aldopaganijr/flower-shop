@@ -3,6 +3,8 @@ import "./Checkout.scss"
 import { useContext } from 'react'
 import {CartContext} from "../../../contexts/cart"
 import CheckoutItem from '../../checkout-item/CheckoutItem'
+import { motion } from "framer-motion"
+import {pageAnimation} from "../../../animation";
 
 const Checkout = () => {
 
@@ -10,7 +12,7 @@ const Checkout = () => {
 
   return (
     <div className='checkout-screen-container'>
-        <div className='checkout-container'>
+        <motion.div exit="exit" variants={pageAnimation} initial="hidden" animate="show" className='checkout-container'>
             <div className='checkout-header'> 
                 <div className='header-block'>
                     <span>Product</span>
@@ -32,7 +34,7 @@ const Checkout = () => {
                 <CheckoutItem cartItem={cartItem} key={cartItem.id} />
                 ))}
                 <span className='total'>Total: ${cartTotal}</span>
-        </div>
+        </motion.div>
     </div>
 
   )

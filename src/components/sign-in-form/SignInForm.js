@@ -3,6 +3,8 @@ import { useState } from "react"
 import FormInput from "../form-input/FormInput"
 import Button from "../button/Button"
 import { signInWithGooglePopup, signInAuthUserWithEmailAndPassword } from "../../utils/firebase/firebase"
+import { motion } from "framer-motion"
+import {pageAnimation} from "../../animation";
 
 
 const defaultFormFields = {
@@ -57,7 +59,7 @@ const SignInForm = () => {
 
   return (
 
-    <div className="sign-in-container">
+    <motion.div exit="exit" variants={pageAnimation} initial="hidden" animate="show" className="sign-in-container">
       <h2>Already have an account?</h2>
       <span>Sign in with your email and password</span>
       <form onSubmit={handleSubmit}> 
@@ -70,7 +72,7 @@ const SignInForm = () => {
             <Button id="google-button" type="button" buttonType='google' onClick={signInWithGoogle}>Google Sign In</Button>
           </div>
       </form>
-    </div>
+    </motion.div>
   )
 }
 

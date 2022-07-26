@@ -3,6 +3,8 @@ import { useState } from "react"
 import FormInput from "../form-input/FormInput"
 import {createAuthUserWithEmailAndPassword, createUserDocumentFromAuth} from '../../utils/firebase/firebase'
 import Button from "../button/Button"
+import { motion } from "framer-motion"
+import {pageAnimation} from "../../animation";
 
 
 const defaultFormFields = {
@@ -60,7 +62,7 @@ const SignUpForm = () => {
 
   return (
 
-    <div className="sign-up-container">
+    <motion.div exit="exit" variants={pageAnimation} initial="hidden" animate="show" className="sign-up-container">
       <h2>Don't have an account?</h2>
       <span>Sign up with your email and password</span>
       <form onSubmit={handleSubmit}> 
@@ -74,7 +76,7 @@ const SignUpForm = () => {
 
           <Button id="sign-up-button" type="submit">Sign Up</Button>
       </form>
-    </div>
+    </motion.div>
   )
 }
 
