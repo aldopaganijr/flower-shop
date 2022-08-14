@@ -3,6 +3,8 @@
 
 ![thegrowroom netlify app_Shop](https://user-images.githubusercontent.com/105445990/184558454-356766b4-dabd-4810-9c2d-f30bbbd4f0ed.png)
 
+- 🗓 Project Status? **Still In Production**
+
 - 🌱 Im currently learning **Vue**
 
 - 👨‍💻 All my projects are linked here! [https://aldopaganijr.netlify.app](https://aldopaganijr.netlify.app)
