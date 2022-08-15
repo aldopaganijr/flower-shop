@@ -19,12 +19,13 @@
   flex-direction: column;
   align-items: center;
   margin: 6px auto 0;
-  background: #A48F78;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(6.3px);
-  -webkit-backdrop-filter: blur(3.3px);
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: rgba(16, 16, 16, 0.26);
   border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: white;
   padding: 3rem;
 
   @media (max-width: 500px){
