@@ -3,7 +3,7 @@
 
 ![thegrowroom netlify app_Shop](https://user-images.githubusercontent.com/105445990/184558454-356766b4-dabd-4810-9c2d-f30bbbd4f0ed.png)
 
-- 🗓 Project Status? **Still In Production**
+- 🗓 Project Status? **Still In Production / Missing Payment**
 
 - 🌱 Im currently learning **Vue**
 
