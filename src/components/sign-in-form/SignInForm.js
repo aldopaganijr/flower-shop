@@ -1,10 +1,11 @@
 import "./SignInForm.scss"
-import { useState } from "react"
+import { useState, useContext } from "react"
 import FormInput from "../form-input/FormInput"
 import Button from "../button/Button"
 import { signInWithGooglePopup, signInAuthUserWithEmailAndPassword } from "../../utils/firebase/firebase"
 import { motion } from "framer-motion"
 import {pageAnimation} from "../../animation";
+import {UserContext} from "../../contexts/user"
 
 
 const defaultFormFields = {
@@ -16,6 +17,9 @@ const SignInForm = () => {
 
   const [formFields, setFormFields] = useState(defaultFormFields);
   const { email, password } = formFields;
+
+    // User Context
+    const {setCurrentUser} = useContext(UserContext)
 
   const clearFormField = () => {
     setFormFields(defaultFormFields)
@@ -33,6 +37,8 @@ const SignInForm = () => {
         email,
         password
       );
+
+      setCurrentUser(user)
 
       clearFormField();
 
